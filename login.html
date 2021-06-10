@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="images/icon.ico">
+	<title>Login Page By Saepulfariz</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row justify-content-center">
+			<!-- col-xl-10 buat di layar leptop -->
+			<div class="col-lg-12 col-xl-10 col-md-12">
+				<div class="card border-0 shadow-lg my-5">
+					<div class="card-body p-4">
+						<div class="row">
+							<!-- d-none d-lg-block buat nampilkan sesuatu yang di lg dan di md,sm xs akan hilang dispaly: none -->
+							<div class="col-lg-6 col-md-12 text-center pb-4 mt-4">
+								<img width="70%" class="" src="images/logo.png" alt="Logo UNSUB">	
+							</div>		
+							<div class="col-lg-6 col-md-12">
+								<div class="card border border-primary shadow">
+									<div class="card-header bg-primary text-light">
+										Login Page
+									</div>
+									<div class="card-body">
+										<form>
+											<div class="form-group">
+												<label for="username">Username</label>
+												<input type="text" class="form-control" autocomplete="off" autofocus="" id="username" aria-describedby="usernameHelp">
+												<small id="usernameHelp" class="form-text font-italic text-danger">Username = saepulfariz, password = 123.</small>
+											</div>
+											<div class="form-group">
+												<label for="password">Password</label>
+												<input type="password" class="form-control" autocomplete="off" id="password">
+											</div>
+											<div class="form-group form-check">
+												<input type="checkbox" class="form-check-input" id="exampleCheck1">
+												<label class="form-check-label" for="exampleCheck1">Check me out</label>
+											</div>
+											<button type="button" id="login" class="btn btn-outline-primary">Submit</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="isiDonk" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="isiDonkLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content border-danger">
+				<div class="modal-header">
+					<h5 class="modal-title text-danger" id="isiDonkLabel">
+						Warning
+					</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					Isi Dulu Bro ^_^
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- modal -->
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
