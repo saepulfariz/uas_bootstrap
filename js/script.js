@@ -58,7 +58,7 @@ $('#pesan').on('click', function () {
 		$('#isiDonk div.modal-body').html('Isi Kode Pos Nya Bro ^_^');
 		$('#isiDonk').modal('show');
 	} else {
-		window.location.href = 'http://api.whatsapp.com/send?phone=' + nomerHp + '&text=Nama%20Lengkap%20%3A%20' + namaDepan + ' ' + namaBelakang + '%0ABarang%20%3A%20' + barang + '%0AAlamat%20%3A%20' + alamat + '%0AKecamatan%20%3A%20' + kec + '%0AKota%20%3A%20' + '%0AKode%20Pos%20%3A%20' + kodePos;
+		window.location.href = 'http://api.whatsapp.com/send?phone=' + nomerHp + '&text=Nama%20Lengkap%20%3A%20' + namaDepan + ' ' + namaBelakang + '%0ABarang%20%3A%20' + barang + '%0AAlamat%20%3A%20' + alamat + '%0AKecamatan%20%3A%20' + kec + '%0AKota%20%3A%20' + kota + '%0AKode%20Pos%20%3A%20' + kodePos;
 	}
 	// http://api.whatsapp.com/send?phone=6282216501151&text=
 	// %0A baris baru
